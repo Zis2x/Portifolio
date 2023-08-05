@@ -1,0 +1,119 @@
+@charset "UTF-8"
+
+*{}
+
+    
+@media screen and (min-width: 600px) and (max-width: 980px){
+    header.cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+         gap: 12px;
+        padding: 19px;
+    }
+    header img {
+         box-shadow: 0px 2px 8px #541b7a34;
+    }
+    nav {
+        gap: 28px;
+    }
+    body {
+
+        background-image: linear-gradient(to left, #b375e6, #3e1897);
+    }
+    main {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        border-top: 0.4px solid #401818;
+        margin-bottom: 48px;
+        width: 90%;
+        max-width: 800px;
+    }
+    h1 {
+        font-size: 74px;
+    }
+    .conteudo {
+        display: grid;
+        grid-template-areas: "topo" "meio meio meio meio" "baixo baix0" ;
+        grid-template-columns: repeat(4, 1rf);
+    }
+    section.c1 {
+        display: flex;
+        flex-direction: row;
+        align-items: self-start;
+        justify-content: space-around;
+     }
+     .c2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        color: white;
+   }
+}  /*Desktop*/
+@media screen and (min-width: 992px) {
+    header.cabecalho {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+         gap: 14px;
+        padding: 24px;
+    }
+    header img {
+         box-shadow: 0px 2px 8px #541b7a34;
+    }
+    body {
+        max-width: 1020px;
+        background-image: linear-gradient(to left, #e69fd0, #904abe);
+    }
+    nav {
+        font-size: 26px;
+        gap: 44px;
+    }
+    a {
+        color: antiquewhite;
+    }
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 0.4px solid #401818;
+    margin-bottom: 48px;
+    width: 95%;
+    max-width: 950px;
+}
+h1 {
+    font-size: 88px;
+}
+p {
+    width: 100%;
+    text-align: center;
+}
+.conteudo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.c1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-around;
+ }
+ .c2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    color: white;
+ }
+ }
